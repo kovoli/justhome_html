@@ -79,3 +79,17 @@ figure.figure-img.d-flex.mx-auto.align-items-center {
 .brands-shops-card {
     height: 160px!important;
 }
+
+/* Single Products */
+
+.price-wrap {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #000000;
+}
+.old-price {
+    font-size: 1.4rem;
+    color: #fd0000;
+    font-weight: 500;
+    text-decoration: line-through;
+}
