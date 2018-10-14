@@ -93,3 +93,8 @@ figure.figure-img.d-flex.mx-auto.align-items-center {
     font-weight: 500;
     text-decoration: line-through;
 }
+.single-buy-btn {
+    background-color: #0079ff;
+    color: #FFFFFF;
+    padding: 1rem;
+}
