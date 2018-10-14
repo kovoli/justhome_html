@@ -102,3 +102,6 @@ figure.figure-img.d-flex.mx-auto.align-items-center {
     background-color: #0060ca;
     color: #FFFFFF;
 }
+.single-pro-card {
+    height: 160px!important;
+}
