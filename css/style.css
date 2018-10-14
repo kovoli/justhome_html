@@ -105,3 +105,9 @@ figure.figure-img.d-flex.mx-auto.align-items-center {
 .single-pro-card {
     height: 160px!important;
 }
+.single-title {
+    font-size: 0.9rem;
+}
+.price-single {
+    font-size: 0.8rem;
+}
