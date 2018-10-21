@@ -111,3 +111,6 @@ figure.figure-img.d-flex.mx-auto.align-items-center {
 .price-single {
     font-size: 0.8rem;
 }
+.compare-pro-card {
+    height: 40px!important;
+}

@@ -87,12 +87,12 @@
         <div class="container">
             <article class="mb-5">
             <div class="row">
-                <div class="col-lg-5 col-sm-12 d-flex mx-auto align-items-center justify-content-center">
+                <div class="col-lg-4 col-sm-12 d-flex mx-auto align-items-center justify-content-center">
                     <figure class="figure-img ">
-                        <img itemprop="image" class="d-block img-fluid shadow" src="https://via.placeholder.com/445x445" alt="Скидка на Apple iPhone 6s Plus 32GB, Grey">
+                        <img itemprop="image" class="d-block img-fluid shadow" src="https://via.placeholder.com/350x350" alt="Скидка на Apple iPhone 6s Plus 32GB, Grey">
                     </figure>
                 </div>
-                <div class="col-lg-7 col-sm-12">
+                <div class="col-lg-8 col-sm-12">
                     <h1 class="title mb-3">Original Version of Some product name</h1>
 
                     <div class="mb-3">
@@ -113,7 +113,9 @@
                       <div class="container compare-price px-0">
                           <div class="row">
                               <div class="col-sm-12 col-lg-7">
-                                  <img class="float-left pr-2" src="https://via.placeholder.com/80x40">
+                                  <figure class="figure-img d-flex mx-auto align-items-center compare-pro-card float-left pr-2 mb-0">
+                                    <a href="#"><img class="d-block img-fluid shadow" src="https://via.placeholder.com/80x40" alt="Скидка на Apple iPhone 6s Plus 32GB, Grey"></a>
+                                  </figure>
                                   <h6 class="title-compare mb-0">Original Version of Some product name</h6>
                                   <span>в <a href="#">Мвидео</a></span>
                               </div>
@@ -133,7 +135,9 @@
                       <div class="container compare-price px-0">
                           <div class="row">
                               <div class="col-sm-12 col-lg-7">
-                                  <img class="float-left pr-2" src="https://via.placeholder.com/80x40">
+                                  <figure class="figure-img d-flex mx-auto align-items-center compare-pro-card float-left pr-2 mb-0">
+                                    <a href="#"><img class="d-block img-fluid shadow" src="https://via.placeholder.com/80x40" alt="Скидка на Apple iPhone 6s Plus 32GB, Grey"></a>
+                                  </figure>
                                   <h6 class="title-compare mb-0">Original Version of Some product name</h6>
                                   <span>в <a href="#">Мвидео</a></span>
                               </div>
@@ -153,7 +157,9 @@
                       <div class="container compare-price px-0">
                           <div class="row">
                               <div class="col-sm-12 col-lg-7">
-                                  <img class="float-left pr-2" src="https://via.placeholder.com/80x40">
+                                  <figure class="figure-img d-flex mx-auto align-items-center compare-pro-card float-left pr-2 mb-0">
+                                    <a href="#"><img class="d-block img-fluid shadow" src="https://via.placeholder.com/80x40" alt="Скидка на Apple iPhone 6s Plus 32GB, Grey"></a>
+                                  </figure>
                                   <h6 class="title-compare mb-0">Original Version of Some product name</h6>
                                   <span>в <a href="#">Мвидео</a></span>
                               </div>
@@ -300,7 +306,43 @@
 
         <div class="container">
             <div class="padding-y-sm">
-                <h3>Отзывы</h3>
+                <h3 class="d-inline-block">Отзывы</h3>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModalCenter">
+                  Оставить отзыв
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ваш емайл">
+                            <small id="emailHelp" class="form-text text-muted">Не удет показан</small>
+                          </div>
+                          <div class="form-group">
+                              <label for="comment">Ваш комментарий:</label>
+                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                          <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <hr>
             </div>
 
